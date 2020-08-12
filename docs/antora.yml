@@ -1,0 +1,6 @@
+name: openshift4-elasticsearch-operator
+title: OpenShift4 Elasticsearch Operator
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/partials/nav.adoc

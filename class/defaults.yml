@@ -1,0 +1,3 @@
+parameters:
+  openshift4_elasticsearch_operator:
+    namespace: openshift-operators-redhat
