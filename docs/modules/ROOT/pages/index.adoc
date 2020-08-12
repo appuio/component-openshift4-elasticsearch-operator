@@ -1,5 +1,6 @@
 = OpenShift4 Elasticsearch Operator
 
-openshift4-elasticsearch-operator is a Commodore component to manage the OpenShift4 Elasticsearch Operator.
+openshift4-elasticsearch-operator is a Commodore component to manage the https://github.com/openshift/elasticsearch-operator[OpenShift4 Elasticsearch Operator].
+It installs the operator on the cluster and makes it available in selected namespaces.
 
 See the xref:references/parameters.adoc[parameters] reference for further details.

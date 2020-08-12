@@ -2,13 +2,33 @@
 
 The parent key for all of the following parameters is `openshift4_elasticsearch_operator`.
 
+See the https://docs.openshift.com/container-platform/latest/logging/cluster-logging-deploying.html#cluster-logging-deploy-cli_cluster-logging-deploying[OpenShift docs] for details.
+
+
 == `namespace`
 
 [horizontal]
 type:: string
 default:: `openshift-operators-redhat`
 
-The namespace in which to deploy this component.
+The namespace in which to install the operator.
+
+== `channel`
+
+[horizontal]
+type:: string
+default:: `4.5`
+
+Channel of the operator subscription to use.
+
+
+== `targetNamespaces`
+
+[horizontal]
+type:: string
+default:: `[]`
+
+List of namespaces in which the operator should be available.
 
 
 == Example
@@ -16,4 +36,7 @@ The namespace in which to deploy this component.
 [source,yaml]
 ----
 namespace: example-namespace
+channel: '4.6'
+targetNamespaces:
+  - openshift-logging
 ----

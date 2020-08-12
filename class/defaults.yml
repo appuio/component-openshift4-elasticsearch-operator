@@ -1,3 +1,5 @@
 parameters:
   openshift4_elasticsearch_operator:
     namespace: openshift-operators-redhat
+    channel: '4.5'
+    targetNamespaces: []
